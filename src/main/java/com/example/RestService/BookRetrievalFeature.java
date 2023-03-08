@@ -1,4 +1,4 @@
-package bookshop;
+package com.example.RestService;
 
 import java.sql.*;
 import java.io.*;
@@ -18,8 +18,8 @@ public class BookRetrievalFeature {
 	public BookRetrievalFeature(String query) {
 		
 		host = "jdbc:mysql://l3xksr51tlfz.us-east-2.psdb.cloud/bookshop";
-		username = "zlsbmvt5ijy8";
-		password = "pscale_pw_GVOS4sX5oVqTZLdIAdcMQ7RCz5MHIdXRwhoL24CC2T8";
+		username = "8fp719dqvuym";
+		password = "pscale_pw_ZwC2j7JNZdAf7YBlOnesCEB3ErplyJrMaRJyzgZRF9U";
 		try {
 			java.sql.Connection connection = DriverManager.getConnection(
 					  host,
